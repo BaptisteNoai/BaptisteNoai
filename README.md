@@ -6,7 +6,7 @@
 
 ## À propos
 
-Je travaille sur des projets de machine learning appliqué, de la construction des features à la comparaison de modèles, en construisant des features qui n'utilisent que l'information disponible avant chaque événement. Je développe aussi mes propres outils full-stack, comme une application locale de suivi financier qui importe et catégorise mes opérations bancaires.
+Je travaille sur des projets de machine learning appliqué, de la conception de features limitées à l'information disponible avant chaque événement jusqu'à la comparaison de modèles. Je développe aussi mes propres outils full-stack, comme une application locale de suivi financier qui importe et catégorise mes opérations bancaires.
 
 - **Formation** : 4e année à l'ESILV, majeure Data & IA, Parcours Recherche (modélisation probabiliste avec des modèles génératifs), diplôme en 2028
 - **Recherche de stage** : stage en Data Science / Machine Learning à partir d'avril 2027
