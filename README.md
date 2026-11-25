@@ -1,52 +1,31 @@
 # Baptiste Noailhac
 
-Étudiant ingénieur à l'ESILV · Majeure Data & IA
+Étudiant ingénieur en 4e année à l'ESILV, majeure Data & IA.
+Je cherche un **stage de 4e année de 4 à 5 mois, dès avril 2027**, orienté IA et technique.
 
-[LinkedIn](https://www.linkedin.com/in/baptiste-noailhac-b60908317) • [Email](mailto:noailhac.baptiste@gmail.com)
+[Portfolio](https://baptistenoai.github.io) · [LinkedIn](https://www.linkedin.com/in/baptiste-noailhac-b60908317) · [E-mail](mailto:noailhac.baptiste@gmail.com)
 
-## À propos
+## Ce que je construis
 
-Je travaille sur des projets de machine learning appliqué, de la conception de features limitées à l'information disponible avant chaque événement jusqu'à la comparaison de modèles. Je développe aussi mes propres outils full-stack, comme une application locale de suivi financier qui importe et catégorise mes opérations bancaires.
-
-- **Formation** : 4e année à l'ESILV, majeure Data & IA, Parcours Recherche (modélisation probabiliste avec des modèles génératifs), diplôme en 2028
-- **Recherche de stage** : stage en Data Science / Machine Learning à partir d'avril 2027
+Mes projets suivent la même démarche : collecter proprement, tester les transformations, puis mesurer un résultat contre une baseline. En 2026-2027, je fais aussi partie du Parcours Recherche de l'ESILV, sur la prévision à court terme d'images de ciel.
 
 ## Projets
 
-| Projet | Description | Stack |
-|--------|-------------|-------|
-| [Projet-Ligue-1](https://github.com/BaptisteNoai/Projet-Ligue-1) | Projet en binôme : prédiction des matchs de Ligue 1 2025-26 (domicile / nul / extérieur). Features calculées uniquement sur l'historique antérieur à chaque match, prédiction séquentielle journée par journée, comparaison de 4 modèles à une baseline. | Python, pandas, NumPy, scikit-learn, Matplotlib, Seaborn, Jupyter |
-| [gestion-finance](https://github.com/BaptisteNoai/gestion-finance) | Application locale de suivi des comptes bancaires et courtier : import par scrapers Python, dédoublonnage et catégorisation par règles apprises des corrections. | TypeScript, Next.js, React, Tailwind CSS, Prisma, SQLite, Zod, Python (woob, pytr, Pydantic) |
+| Projet | Ce que ça montre | Stack |
+|--------|------------------|-------|
+| [observatoire-velo-electrique](https://github.com/BaptisteNoai/observatoire-velo-electrique) | Collecte quotidienne de 2 sources en Parquet, transformation dbt avec 23 tests de qualité, décote mesurée à modèle égal (-3,1 % par an), biais repéré en confrontant deux méthodes | Python, dbt, DuckDB, Parquet, pandas, pytest |
+| [gestion-finance](https://github.com/BaptisteNoai/gestion-finance) | Pipeline ETL de deux établissements vers une base relationnelle : schéma commun validé en Python et en TypeScript, imports idempotents, API REST, tableau de bord | TypeScript, Next.js, Prisma, SQLite, Zod, Python, Pydantic |
+| [rapprochement-annonces-velo](https://github.com/BaptisteNoai/rapprochement-annonces-velo) | Règles contre LLM local pour relier des annonces de particuliers à un catalogue, sur 200 annonces annotées à la main (découpage ajustement / test) : la règle de version l'emporte (75 % d'exactitude contre 30 % pour le LLM seul) ; API FastAPI, Docker, évaluation dans GitHub Actions | Python, rapidfuzz, Ollama, Pydantic, FastAPI, Docker |
+| [nextgen-ai-dia3](https://github.com/louislefo/nextgen-ai-dia3) | Projet ESILV en groupe de 7 : 5 LLM évalués contre un benchmark SQL à réponses connues, vote k-sur-n, routage. Ma part : diagnostic d'un faux consensus par requêtes SQL, vérification du vote de l'autre binôme | Python, SQL, SQLite |
+| [Projet-Ligue-1](https://github.com/BaptisteNoai/Projet-Ligue-1) | Projet ESILV en binôme : features calculées sur le seul historique antérieur, comparaison de modèles à une baseline (48 % contre 44 %), limites documentées | Python, pandas, scikit-learn |
 
-## Stack technique
+## Stack
 
-**Data & ML**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![pandas](https://img.shields.io/badge/pandas-150458?style=flat&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikitlearn&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat)
-![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=flat)
-
-**Web & Full-Stack**
-
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat&logo=prisma&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
-![Zod](https://img.shields.io/badge/Zod-3E67B1?style=flat&logo=zod&logoColor=white)
-
-**Outils**
-
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
-![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat&logo=pydantic&logoColor=white)
-![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat&logo=playwright&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+**Data et ML** : Python, pandas, NumPy, scikit-learn, SQL, dbt, DuckDB, Parquet, Matplotlib, Seaborn
+**LLM et déploiement** : Ollama, Pydantic, FastAPI, Docker, GitHub Actions
+**Développement** : TypeScript, Next.js, React, Prisma, SQLite, Zod, Pydantic, API REST
+**Qualité** : pytest, Playwright, Git
 
 ## Contact
 
-- LinkedIn : [baptiste-noailhac](https://www.linkedin.com/in/baptiste-noailhac-b60908317)
-- Email : [noailhac.baptiste@gmail.com](mailto:noailhac.baptiste@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/baptiste-noailhac-b60908317) · [noailhac.baptiste@gmail.com](mailto:noailhac.baptiste@gmail.com)
